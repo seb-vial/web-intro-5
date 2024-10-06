@@ -619,7 +619,7 @@ equal: false
 ---
 
 # PHP
-Create variables
+Creating variables
 
 ```php {*}{lines:true}
 <?php
