@@ -1,0 +1,12 @@
+.slidev-layout :is(h1, h2, h3) {
+  @apply text-teal-400;
+}
+
+.slidev-layout ol {
+  list-style: decimal;
+}
+
+:not(pre) > code:before,
+:not(pre) > code:after {
+  content: none;
+}
