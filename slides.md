@@ -210,6 +210,52 @@ left: false
 ---
 
 # Forms
+Grouping your options
+
+```html {*}{lines:true}
+<form action="index.php" method="POST">
+  <select name="car">
+    <option value="" hidden selected disabled>Pick a car</option>
+    <optgroup label="Renault">
+      <option value="clio">Clio</option>
+      <option value="megane">Megane</option>
+      <option value="kangoo">Kangoo</option>
+    </optgroup>
+    <optgroup label="Tesla">
+      <option value="s">Model S</option>
+      <option value="3">Model 3</option>
+      <option value="x">Model X</option>
+      <option value="y">Model Y</option>
+    </optgroup>
+  </select>
+</form>
+```
+
+<div v-motion v-click :initial="{x: 999, y: -999}" :enter="{x: 570, y: -175}" class="[color-scheme:auto] absolute min-w-1/3 p-2 bg-gray-700 text-white dark:text-gray-800 dark:bg-white rounded-md border-2 border-teal-600 text-center">
+  <select name="car" class="border-gray-3 border rounded-sm p-1">
+    <option value="" hidden selected disabled>Pick a car</option>
+    <optgroup label="Renault">
+      <option value="clio">Clio</option>
+      <option value="megane">Megane</option>
+      <option value="kangoo">Kangoo</option>
+    </optgroup>
+    <optgroup label="Tesla">
+      <option value="s">Model S</option>
+      <option value="3">Model 3</option>
+      <option value="x">Model X</option>
+      <option value="y">Model Y</option>
+    </optgroup>
+  </select>
+</div>
+
+---
+layout: dynamic-image
+image: ./images/forms.jpg
+equal: false
+left: false
+---
+
+# Forms
 Do you check all the boxes?
 
 ```html {*}{lines:true}
