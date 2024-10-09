@@ -605,7 +605,7 @@ equal: false
 # Web servers
 How does that work exactly?
 
-When using a web sever, you have to use a URL to reach your website, whether it's a local or distant server.  
+When using a web server, you have to use a URL to reach your website, whether it's a local or distant server.  
 In the end, the server will return HTML and CSS the browser (client) will be able to render.
 
 <div v-click class="[color-scheme:auto] p-4 bg-gray-700 text-white dark:text-gray-800 dark:bg-white rounded-md border-2 border-teal-600">
