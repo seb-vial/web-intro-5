@@ -483,7 +483,7 @@ Pay attention to the form
 - Create a POST form leading to a **process.php** page
 - Add a required input text for the last name
 - Add a required input text for the first name
-- Add an input of type *number** for the age
+- Add an input of type **number** for the age
 - Add a select list for the gender
 - Add a submit button
 - Each field has its associated **label**
@@ -812,8 +812,8 @@ PHP comes with many utility functions out of the box. You can browse the [docume
 <v-clicks>
 
 - [**strlen**](https://www.php.net/manual/en/function.strlen.php): returns the number of characters in a string
-- [**strtlower**](https://www.php.net/manual/en/function.strtolower.php): transforms the given string to a lowercase string (good for comparing strings)
-- [**strtupper**](https://www.php.net/manual/en/function.strtoupper.php): transforms the given string to an uppercase string (good for comparing strings)
+- [**strtolower**](https://www.php.net/manual/en/function.strtolower.php): transforms the given string to a lowercase string (good for comparing strings)
+- [**strtoupper**](https://www.php.net/manual/en/function.strtoupper.php): transforms the given string to an uppercase string (good for comparing strings)
 - [**substr**](https://www.php.net/manual/en/function.substr.php): extracts part of string
 - [**isset**](https://www.php.net/manual/en/function.isset.php): checks if a variable exists and is not null
 - [**empty**](https://www.php.net/manual/en/function.empty.php): checks if a variable exists and if its value does not equal **false** (see [this](https://www.php.net/manual/en/language.types.boolean.php#language.types.boolean.casting))
